@@ -1,0 +1,28 @@
+/*!
+Theme Name: exam
+Theme URI: http://exam-template.ck.ua/
+Author: Vitalii Vlasyuk
+Author URI: http://exam-template.ck.ua/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: exam
+Tags:
+*/
+
+// styles reset and third party libs
+@import 'vendors/reset';
+@import 'vendors/bootstrap/bootstrap-grid';
+@import 'vendors/flexslider/flexslider';
+//base
+@import 'base/fonts';
+@import 'base/base';
+// layouts
+@import 'layout/header';
+
+@import 'layout/home-page/main-slider';
+@import 'layout/home-page/about-content';
+@import 'layout/home-page/services';
+
+@import 'layout/footer';

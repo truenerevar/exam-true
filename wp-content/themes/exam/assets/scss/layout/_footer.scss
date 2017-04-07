@@ -1,0 +1,64 @@
+.main-footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 45px;
+  .contact-info {
+    .footer-logo {
+      img {
+        margin-bottom: 20px;
+      }
+    }
+    p {
+      font-size: 13px;
+      line-height: 23px;
+    }
+    .phone, .email {
+      a {
+        font-size: 20px;
+        font-weight: 600;
+        font-style: italic;
+        color: #fff;
+      }
+    }
+  }
+  h6 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+  }
+  .menu {
+    font-size: 13px;
+    a {
+      color: #fff;
+      font-weight: 400;
+      line-height: 23px;
+    }
+  }
+  .sub-footer {
+    margin-top: 20px;
+    padding: 15px 0;
+    background: rgba(0,0,0,.1);
+    .flex-wrap {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: space-between;
+      .widget_recent_entries {
+        .social-links {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-flow: row nowrap;
+          li {
+            padding: 0 10px;
+            a {
+              color: #fff;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
