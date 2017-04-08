@@ -1,0 +1,59 @@
+.welcome {
+  position: relative;
+  background-color: #ff4848;
+  height: calc(100vh - 113px);
+  .welcome-wrapper {
+    transform: translate(0,50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: Roboto;
+    h2 {
+      font-size: 60px;
+      font-weight: 700;
+      text-transform: uppercase;
+      span {
+        color: #2c3e50;
+      }
+    }
+    .slogan {
+      font-size: 48px;
+      font-weight: 400;
+    }
+    .big-txt {
+      font-size: 30px;
+      font-weight: 400;
+    }
+    .little-txt {
+      font-size: 24px;
+      font-weight: 400;
+    }
+    .about-excerpt {
+      font-size: 24px;
+    }
+  }
+  .scroll-down-btn {
+    transform: translate(0,-25%);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    width: 40px;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      color: #000;
+    }
+  }
+  .image {
+    transform: translate(0,25%);
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

@@ -1,0 +1,27 @@
+.offering {
+  background-color: #004966;
+  text-align: center;
+  padding: 30px 0;
+  h3 {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 20px 0;
+  }
+  .services-desc {
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 18px;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    li {
+      p {
+        line-height: 24px;
+      }
+    }
+  }
+}

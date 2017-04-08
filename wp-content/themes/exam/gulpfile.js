@@ -19,7 +19,7 @@ gulp.task('scripts', function() {
 		'./assets/libs/jquery/jquery-1.12.1.min.js',
 		'./assets/libs/plugins-scroll/plugins-scroll.js',
 		'./assets/libs/flexslider/jquery.flexslider.js',
-		'./assets/libs/fancybox/jquery.fancybox.js',
+		'./assets/libs/isotope/isotope.pkgd.min.js',
 		])
 		.pipe(concat('libs.js'))
 		.pipe(uglify())

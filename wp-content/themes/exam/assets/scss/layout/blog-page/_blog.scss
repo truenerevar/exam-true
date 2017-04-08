@@ -1,0 +1,36 @@
+.blog-main {
+  .post-list-item {
+    transition: all .5s linear;
+    margin: 15px 0;
+    a {
+      color: #000000;
+    }
+    h2,
+    p {
+      padding: 2px 10px;
+    }
+    h2 {
+      font-size: 16px;
+      color: #000000;
+      font-weight: 500;
+    }
+    &:hover {
+      h2 {
+        color: #ff4848;
+      }
+    }
+    p {
+      font-size: 9px;
+      line-height: 16px;
+      font-weight: 400;
+    }
+    time {
+      text-align: center;
+    }
+    .center {
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #000002;
+    }
+  }
+}

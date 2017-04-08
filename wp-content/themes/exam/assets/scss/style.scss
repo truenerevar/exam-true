@@ -21,8 +21,13 @@ Tags:
 // layouts
 @import 'layout/header';
 
-@import 'layout/home-page/main-slider';
-@import 'layout/home-page/about-content';
-@import 'layout/home-page/services';
+@import 'layout/home-page/welcome';
+@import 'layout/home-page/about';
+@import 'layout/home-page/offering';
+@import 'layout/home-page/portfolio';
+
+@import 'layout/blog-page/blog';
+@import 'layout/blog-page/sidebar';
+@import 'layout/blog-page/single';
 
 @import 'layout/footer';
